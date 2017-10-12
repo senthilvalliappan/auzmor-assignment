@@ -45,8 +45,9 @@ public lineChartData:Array<any> = [
   public lineChartType:string = 'line';
  
   
- 
- 
+ public chartClicked(e:any):void {
+    console.log(e);
+  }
  
   public chartHovered(e:any):void {
     console.log(e);
